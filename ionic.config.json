@@ -1,0 +1,8 @@
+{
+  "name": "Zanzibar",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue",
+  "id": "2cb22b11"
+}
