@@ -11,9 +11,13 @@ body {
   }
   
   p {
-    color: #1EB53A ;
+    color: #fff ;
     line-height: 1.5;
     font-size: 22px;
+  }
+
+  h2 {
+    color: #1EB53A ;
   }
 
   nav ul.dropdown-list {
