@@ -7,12 +7,47 @@ body {
   
   h1 {
     color: #333;
-    font-size: 24px;
+    font-size: 44px;
   }
   
   p {
     color: #666;
     line-height: 1.5;
+    font-size: 22px;
+  }
+
+  nav ul.dropdown-list {
+    list-style: none;
     font-size: 12px;
   }
+  
+  nav ul.dropdown-list li {
+    position: relative;
+  }
+  
+  nav ul.dropdown-list li:before {
+    content: "\25BE"; /* Unicode character for down arrow */
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  nav ul.dropdown-list li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+  }
+  
+  nav ul.dropdown-list li:hover ul {
+    display: block;
+  }
+  
+  nav ul.dropdown-list li ul li {
+    background-color: #f2f2f2;
+    padding: 5px;
+  }
+  
   
